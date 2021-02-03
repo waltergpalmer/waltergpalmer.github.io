@@ -1,0 +1,32 @@
+# we use Shopify as our ecommerce platform
+
+User-agent: *
+Disallow: /a/downloads/-/*
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkout
+Disallow: /*/collections/*+*
+Disallow: /*/collections/*%2B*
+Disallow: /*/collections/*%2b*
+Disallow: /blogs/*+*
+Disallow: /blogs/*%2B*
+Disallow: /blogs/*%2b*
+Disallow: /*/blogs/*+*
+Disallow: /*/blogs/*%2B*
+Disallow: /*/blogs/*%2b*
+Disallow: /*design_theme_id*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /policies/
+Disallow: /search
+Disallow: /apple-app-site-association
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: MJ12bot
+Crawl-Delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1
